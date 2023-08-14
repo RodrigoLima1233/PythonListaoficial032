@@ -9,9 +9,9 @@ import math
 alt = float(input("Olá, qual é a sua altura?"))
 peso = float(input("E qual é o seu peso?"))
 
-IMC = peso/math.pow(alt,2)
+imc = peso / math.pow(alt, 2)
 
-print(f"Seu IMC é, {IMC}")
+print(f"Seu IMC é, {imc:.1f}")
 
 
 
